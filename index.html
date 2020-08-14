@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head Rhythmodulum 0.4>
+        <title>Rhythmodulum 0.4</title>
+        <meta name="Description" content="A web application for generating and manipulating rhythmic patterns. Created by George Luther in 2020">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <div class="header">     
+            <h1>rhythmodulum</h1>
+            <button id="about" class="header-right">about</button>
+            <button id="hints" class="header-right">hints</button>
+        </div>
+        
+        <div class="banner"> 
+            <div class="FILTER_SORT">
+                <input id="filter" placeholder="search here">
+                <select id="sortBy">
+                    <option value="byCreated">sort by recently created</option>
+                    <option value="byEdited">sort by last edited</option>
+                    <option value="byDrum">sort by drum type</option>
+                    <option value="byLength">sort by pattern length</option>
+                    <option value="byPattern">sort by pattern type</option>
+                    <option value="byName">sort by name</option>
+                </select>
+            </div>
+            <div class="GLOBAL_TRANSPORT">
+                <input id="bpmText" placeholder="bpm">
+                <input name="bpmSlider" id="bpmSlider" type="range" min="40" max="360" value="120" step="1" />
+                
+                <input id="play" type="button"></input>
+                <input id="restart" type="button"></input>
+                <input id="loop" type="button"></input>
+            </div>
+        </div>
+    </body>
+</html>
