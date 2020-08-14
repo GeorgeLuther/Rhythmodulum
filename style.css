@@ -1,0 +1,52 @@
+:root {
+    --backCol:  rgb(255, 255, 255);
+}
+body {
+    margin: 0;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif, system-ui;
+}
+.header {
+    overflow: hidden;
+    position: fixed;
+    width:100%;
+    padding: 8px;
+    background: rgb(246, 231, 211);
+}
+    .header h1 {
+        float: left;
+        display: block;
+        margin: 0;
+    }
+    .header button {
+        float: right;
+        padding: 8px;
+        font-size: 16px;
+    }
+    #about {
+        margin-right: 16px;
+    }
+.banner{
+    overflow: hidden;
+    position: fixed;
+    top: 54px;
+    width: 100%;
+    background: rgb(168, 136, 117);
+}
+    .FILTER_SORT {
+        float: left;
+        padding: 4px;
+    }
+        #filter {
+            display: block;
+        }
+        #sort {
+            display: block;
+        }
+    .GLOBAL_TRANSPORT {
+        position: relative;
+        float: right;
+    }
+        #bpmText {
+            width: 30px;
+        }
