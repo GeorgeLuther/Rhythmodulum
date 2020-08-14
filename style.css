@@ -46,6 +46,7 @@ body {
     .GLOBAL_TRANSPORT {
         position: relative;
         float: right;
+        top: 50%;
     }
         #bpmText {
             width: 30px;
