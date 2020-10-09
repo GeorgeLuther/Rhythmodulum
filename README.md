@@ -14,7 +14,7 @@ Right now I am working on a new version. My main goals for this are version are:
 * [Pseudo-code](https://docs.google.com/document/d/1_Gs1Dd85kNEGzAkxlfWniV9NHmvzL31Z9DyOsfgEEDA/edit?usp=sharing)
 * [UI Sketching](https://docs.google.com/presentation/d/12ZCTV_D56bZNKkaJkFE0Ulknrr_kYX3Gdpy_WH7OXes/edit?usp=sharing)
 
-##Current functionality
+## Current functionality
 * 8 drum sounds
 * a basic transport bar
 *'unlimited' patterns that can be named, sorted, and deleted
